@@ -24,9 +24,9 @@ require_once 'includes/config.inc.php';
 <div id="noJs">
     You must have JavaScript installed.
 </div>
-<div id="container" class="home">
+<div id="container" class="contact">
     <?php
-    $page = 'home';
+    $page = 'contact';
     require_once 'includes/header.inc.php';
     ?>
 

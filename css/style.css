@@ -14,9 +14,9 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #fff; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -78,24 +78,162 @@ form label {
   text-align:right;
   padding:2px;
 }
-#container {
-  width:960px;
-  margin:10px auto;
-  background:yellow;
-}
 
 
 
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+body{
+    width: 100%;
+    background: url("../imgs/bg_full.jpg") no-repeat 50% 0;
+}
+
+#container {
+    width:1280px;
+    margin:5px auto;
+    height: 1080px;
+    position: relative;
+}
+header{
+    height: 169px;
+    width: 100%;
+    background: url("../imgs/header_bg.png") no-repeat 10px 0;
+    z-index: 5;
+    position: relative;
+}
+header nav{
+    
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+nav li.active{
+    background: url("../imgs/nav_arrow.png") no-repeat 6px 14px;
+}
+#container nav li a{
+    color: #B4C8DF;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    width: 120px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #000;
+}
+#container nav li.active a{
+    color: #00FFFF;
+}
+#sliderContainer{
+    width: 1198px;
+    position: relative;
+    margin: -10px 0 0 40px;
+    height: 450px;
+    background: white;
+    z-index: 3;
+}
+#phoneLine{
+    background: url("../imgs/phone_line.png") no-repeat 0 50%;
+    height: 28px;
+    margin: 10px 0 0 40px;
+}
 
 
+footer{
+    overflow: hidden;
+    height: 445px;
+}
+footer .textBox{
+    background: url("../imgs/textbox.png") no-repeat;
+    height: 265px;
+    width: 235px;
+    padding: 5px 20px;
+    float: left;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 8px #000;
+    -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent),
+      color-stop(0.5, transparent),
+      to(rgba(255, 255, 255, 0.5)));
+    text-align: center;
+}
+.textBox h3{
+    color: #193B60;
+}
 
 
+#footerTagline{
+    background: url("../imgs/footer_tagline.png") no-repeat;
+    width: 764px;
+    height: 69px;
+    margin: 330px auto 0;
+}
+#footerLogo{
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    background: url("../imgs/footer_logo.png") no-repeat;
+    height: 38px;
+    width: 97px;
+}
+#footerURL{
+    width: 500px;
+    text-align: center;
+    margin: 5px auto;
+    color: #fff;
+    font-size: 16px;
+}
+#footerSocial{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 120px;
+    height: 66px;
+}
+#footerSocial #facebook{
+    background: url("../imgs/facebook_logo.png") no-repeat;
+    width: 49px;
+    height: 59px;
+    float: left;
+    text-indent: -9999px;
+}
+
+#footerSocial #twitter{
+    background: url("../imgs/twitter_logo.png") no-repeat;
+    width: 64px;
+    height: 66px;
+    float: left;
+    text-indent: -9999px;
+}
 
 
+.home nav li.active{
+    background-size: 70px 100%;
+    background-position: 29px 14px;
+}
 
+.portfolio nav li.active{
+    background-size: 132px 100%;
+    background-position: 1px 14px;
+}
+
+.services nav li.active{
+    background-size: 110px 100%;
+    background-position: 11px 14px;
+}
+
+.about nav li.active{
+    background-size: 110px 100%;
+    background-position: 11px 14px;
+}
+
+.contact nav li.active{
+    background-size: 138px 100%;
+    background-position: 0 14px;
+}
 
 
 
