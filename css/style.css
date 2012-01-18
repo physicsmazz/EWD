@@ -162,7 +162,7 @@ nav li.active{
     background: url("../imgs/shadow_man.png") no-repeat;
     position: absolute;
     top: 130px;
-    left: 0px;
+    left: 0;
 }
 
 
@@ -170,7 +170,7 @@ nav li.active{
     color: #31788C;
     font-size: 24px;
     text-shadow: 1px 1px 4px #000;
-    margin: 5px 0px 0px 10px;
+    margin: 5px 0 0 10px;
     border-bottom: 3px double #31788c;
     width: 610px;
 }
@@ -189,6 +189,28 @@ nav li.active{
     position: absolute;
     left: 0;
     top: 0;
+    color: #195063;
+}
+#contactText h3{
+    font-size: 24px;
+    text-shadow: 1px 1px 4px #000;
+    margin: 15px 0 0 0;
+    padding: 0 0 10px 15px;
+    border-bottom: 3px double #31788c;
+}
+#contactText p{
+    padding: 5px 20px;
+    margin-bottom: 200px;
+}
+#contactText h4{
+    margin-left: 20px;
+}
+#contactText input{
+    margin-left: 20px;
+}
+#contactText label{
+    width: 200px;
+    text-align: left;
 }
 .contact #businessCardText{
     position: absolute;
