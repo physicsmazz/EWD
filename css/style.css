@@ -132,9 +132,18 @@ nav li.active{
     width: 1198px;
     position: relative;
     margin: -10px 0 0 40px;
-    height: 450px;
-    background: white;
     z-index: 3;
+}
+.home #main #sliderImg{
+    background: white url("../imgs/slider_texture.png");
+    height: 460px;
+    position: relative;
+}
+.home #main #sliderImg img{
+    margin: 0 auto;
+    display: block;
+    height: 438px;
+    width: 1139px;
 }
 #phoneLine{
     background: url("../imgs/phone_line.png") no-repeat 0 50%;
