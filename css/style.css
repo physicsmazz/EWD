@@ -129,15 +129,17 @@ nav li.active{
     color: #00FFFF;
 }
 #sliderContainer{
-    width: 1198px;
+    width: 1200px;
     position: relative;
     margin: -10px 0 0 40px;
     z-index: 3;
+    box-shadow: 3px 3px 15px #000;
 }
 .home #main #sliderImg{
     background: white url("../imgs/slider_texture.png");
     height: 460px;
     position: relative;
+    box-shadow: 3px 3px 15px #000;
 }
 .home #main #sliderImg img{
     margin: 0 auto;
@@ -150,8 +152,73 @@ nav li.active{
     height: 28px;
     margin: 10px 0 0 40px;
 }
+.about #aboutText h3{
+    color: #31788C;
+    font-size: 24px;
+    text-shadow: 1px 1px 4px #000;
+    margin: 5px 0px 0px 10px;
+    border-bottom: 3px double #31788c;
+    width: 610px;
+}
+.about #aboutText{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 438px;
+    width: 600px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.contact #contactText{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact #businessCardText{
+    position: absolute;
+    width: 370px;
+    height: 180px;
+    top: 146px;
+    right: 254px;
+    padding: 20px 10px;
+}
+#businessCardText label{
+    text-indent: -9999px;
+}
+#businessCardText input{
+    display: block;
+    margin: 5px 2px 15px;
+    width: 172px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #ebebeb;
+    box-shadow: inset 3px 3px 8px #aaa;
+    padding: 0px 5px;
+}
+#businessCardText textarea{
+    position: absolute;
+    right: 17px;
+    top: 22px;
+    height: 170px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #ebebeb;
+    box-shadow: inset 3px 3px 8px #aaa;
+    padding: 0px 5px;
 
-
+}
+#businessCardText #sendMailBtn{
+    width: 194px;
+    height: 39px;
+    background: url("../imgs/send_btn.png");
+    margin: 2px 0 2px -4px;
+    border: none;
+    text-indent: -9999px;
+}
 footer{
     overflow: hidden;
     height: 445px;
@@ -164,7 +231,7 @@ footer .textBox{
     float: left;
     margin: 10px 20px;
     box-shadow: 2px 2px 8px #000;
-    -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent),
+    -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent),
       color-stop(0.5, transparent),
       to(rgba(255, 255, 255, 0.5)));
     text-align: center;

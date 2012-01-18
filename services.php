@@ -33,7 +33,7 @@ require_once 'includes/config.inc.php';
     <div id="main" role="main">
         <div id="sliderContainer">
             <div id="sliderImg">
-
+                <img src="imgs/b_services.jpg" alt="Our Services">
             </div>
         </div>
         <div id="phoneLine"></div>
