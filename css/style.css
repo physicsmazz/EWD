@@ -152,6 +152,20 @@ nav li.active{
     height: 28px;
     margin: 10px 0 0 40px;
 }
+
+
+.services #shadowMan{
+    position: absolute;
+    z-index: 99;
+    height: 568px;
+    width: 193px;
+    background: url("../imgs/shadow_man.png") no-repeat;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+
 .about #aboutText h3{
     color: #31788C;
     font-size: 24px;
