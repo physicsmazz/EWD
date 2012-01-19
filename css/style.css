@@ -195,6 +195,11 @@ nav li.active{
     text-align: center;
     padding: 10px 20px;
 }
+
+
+#container.contact #sliderImg{
+    height: 465px;
+}
 .contact #contactText{
     width: 500px;
     height: 100%;
@@ -202,6 +207,7 @@ nav li.active{
     left: 0;
     top: 0;
     color: #195063;
+    font-style: italic;
 }
 #contactText h3{
     font-size: 24px;
@@ -209,6 +215,7 @@ nav li.active{
     margin: 15px 0 0 0;
     padding: 0 0 10px 15px;
     border-bottom: 3px double #31788c;
+    font-style: italic;
 }
 #contactText p{
     padding: 5px 20px;
@@ -216,6 +223,8 @@ nav li.active{
 }
 #contactText h4{
     margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 #contactText input{
     margin-left: 20px;
@@ -267,6 +276,13 @@ nav li.active{
     border: none;
     text-indent: -9999px;
 }
+
+.thankyou #sliderImg img{
+    display: block;
+    margin: 110px auto 50px;
+}
+
+
 footer{
     overflow: hidden;
     height: 445px;

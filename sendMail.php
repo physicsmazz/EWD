@@ -11,8 +11,9 @@ if(isset($_POST)){
 
     array_walk_recursive($_POST, create_function('&$val', '$val = stripslashes(trim($val));'));
     $name = $_POST['name'];
-    $emailAddress = $_POST['emailAddress'];
+    $emailAddress = $_POST['email'];
     $phone = $_POST['phone'];
+    $contactMethod = $_POST['contactMethod'];
     $message = $_POST['message'];
 
     if(empty($name)){
@@ -33,21 +34,26 @@ if(isset($_POST)){
     if($formOk){
         try {
             $email = new PHPMailer(true);
-            $email->AddAddress('physicsmazz@gmail.com', 'MAZZ');
-            $email->Subject = "Email from mazzwebdesign.com";
-            $email->From = 'donotreply@mazzwebdesign.com';
-            $email->FromName = "Mazzantini Webdesign";
+            $email->AddAddress('don.evowebdesign@gmail.com', 'Don');
+            $email->AddBCC('physicsmazz@gmail.com', 'MAZZ');
+            $email->Subject = "Email from evolutionwebdevelopment.com";
+            $email->From = 'donotreply@evolutionwebdevelopment.com';
+            $email->FromName = "Evolution Web Development";
 
             $emailBody = "From: {$name}<br>";
             $emailBody .= "Email: {$emailAddress}<br>";
+            $emailBody .= "Phone: {$phone}<br>";
+            $emailBody .= "Contact Method: {$contactMethod}<br>";
             $emailBody .= "Message: {$message}<br>";
 
             $email->MsgHTML($emailBody);
             $email->Send();
-            echo ("Your message was sent.");
+            header("location: thankyou.php");
         } catch (Exception $e) {
             echo ($e->getMessage());
         }
+    }else{
+        header("location: contact.php?error=true");
     }
 }
 

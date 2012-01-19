@@ -24,7 +24,7 @@ require_once 'includes/config.inc.php';
 <div id="noJs">
     You must have JavaScript installed.
 </div>
-<div id="container" class="contact">
+<div id="container" class="thankyou">
     <?php
     $page = 'contact';
     require_once 'includes/header.inc.php';
@@ -33,33 +33,7 @@ require_once 'includes/config.inc.php';
     <div id="main" role="main">
         <div id="sliderContainer">
             <div id="sliderImg">
-                <form action="sendMail.php" method="post">
-                    <img src="imgs/d_contact_us.jpg" alt="Contact Us">
-                    <div id="businessCardText">
-                        <label class="visuallyhidden" for="name">Name</label>
-                        <input placeholder="Name" type="text" name="name" id="name">
-                        <label class="visuallyhidden" for="email">Email Address</label>
-                        <input placeholder="Email Address" type="text" name="email" id="email">
-                        <label class="visuallyhidden" for="phone">Phone</label>
-                        <input placeholder="Tel#" type="tel" name="phone" id="phone">
-                        <button type="submit" id="sendMailBtn">SEND</button>
-                        <label class="visuallyhidden" for="message">Message</label>
-                        <textarea placeholder="Message" name="message" id="message"></textarea>
-                    </div>
-                    <div id="contactText">
-                        <h3>Thank you for visiting <br>e-Volution Web Development.com</h3>
-                        <p>
-                            If you would like to contact us,
-                            please fill out the contact form and a member of the e-Volution Web Development team will contact you.
-                        </p>
-                        <h4>Preferred method of contact</h4>
-                        <input type="radio" name="contactMethod" id="contactByEmail" value="email">
-                        <label for="contactByEmail">Contact me by email</label>
-                        <br>
-                        <input type="radio" name="contactMethod" id="contactByPhone" value="phone">
-                        <label for="contactByPhone">Contact me by phone</label>
-                    </div>
-                </form>
+                <img src="imgs/thankyou.png" alt="Thank You">
             </div>
         </div>
         <div id="phoneLine"></div>
