@@ -213,7 +213,7 @@ require_once 'includes/config.inc.php';
           		    autoplay:true,
           		    delay:5000,
           		    mouseWheel:false,
-          		    imageClick:"url",
+          		    imageClick:"next",
           		    image:{
           			crop:true,
           			transitions:[{
