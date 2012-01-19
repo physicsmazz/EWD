@@ -128,6 +128,17 @@ nav li.active{
 #container nav li.active a{
     color: #00FFFF;
 }
+
+
+
+.portfolio #main{
+    width: 1200px;
+}
+.portfolio #main #sliderImg{
+    height: 460px;
+}
+
+
 #sliderContainer{
     width: 1200px;
     position: relative;
@@ -135,11 +146,12 @@ nav li.active{
     z-index: 3;
     box-shadow: 3px 3px 15px #000;
 }
-.home #main #sliderImg{
+#main #sliderImg{
     background: white url("../imgs/slider_texture.png");
     height: 460px;
     position: relative;
     box-shadow: 3px 3px 15px #000;
+    overflow: auto;
 }
 .home #main #sliderImg img{
     margin: 0 auto;
