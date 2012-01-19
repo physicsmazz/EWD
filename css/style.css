@@ -62,6 +62,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
 #ie { width:100%; background:#ffff99; color:#000000;  position:relative; text-align:center; padding:5px 0;}
+#ie a{color: #000 !important}
 #ie #closeIE { position:absolute; right:10px; top:10px; cursor:pointer;
 }
 #noJs {
