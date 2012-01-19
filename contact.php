@@ -53,7 +53,7 @@ require_once 'includes/config.inc.php';
                             please fill out the contact form and a member of the e-Volution Web Development team will contact you.
                         </p>
                         <h4>Preferred method of contact</h4>
-                        <input type="radio" name="contactMethod" id="contactByEmail" value="email">
+                        <input type="radio" name="contactMethod" id="contactByEmail" value="email" checked="checked">
                         <label for="contactByEmail">Contact me by email</label>
                         <br>
                         <input type="radio" name="contactMethod" id="contactByPhone" value="phone">
