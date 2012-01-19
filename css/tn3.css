@@ -14,10 +14,10 @@
 }
 .tn3-image {
     position:absolute;
-    left: 20px;
-    top: 20px;
-    width: 1080px;
-    height: 360px;
+    left: 0px;
+    top: 0px;
+    width: 1100px;
+    height: 380px;
     background-color: #000000;
 }
 
@@ -39,7 +39,7 @@
 }
 .tn3-thumbs {
     position:absolute;
-    width:1000px;
+    width:1100px;
     height:80px;
     bottom:00px;
     left:0;
@@ -282,3 +282,6 @@
 .tn3.album div, .tn3.album li h4, .tn3.album li div{
     display:none;
 }
+div[title="Powered by TN3 Gallery"]{
+    display: none;
+    }
