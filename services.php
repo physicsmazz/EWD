@@ -38,6 +38,7 @@ require_once 'includes/config.inc.php';
             </div>
         </div>
         <div id="phoneLine"></div>
+        <div id="tagLine">e-Volution Web Design, understanding what it takes to make a quality website,...not just another website.</div>
 
     </div>
 

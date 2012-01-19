@@ -66,7 +66,7 @@ require_once 'includes/config.inc.php';
             </div>
         </div>
         <div id="phoneLine"></div>
-
+        <div id="tagLine">The future in business is the Internet,...the future is now.</div>
     </div>
 
     <?php

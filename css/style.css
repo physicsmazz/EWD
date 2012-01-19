@@ -133,7 +133,7 @@ nav li.active{
 
 
 .portfolio #main{
-    width: 1200px;
+    width: 1280px;
 }
 .portfolio #main #sliderImg{
     height: 460px;
@@ -159,6 +159,15 @@ nav li.active{
     height: 438px;
     width: 1139px;
 }
+#tagLine{
+    text-align: center;
+    color: #fff;
+    margin: -17px auto 0px;
+    font-size: 16px;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #000;
+}
+
 #phoneLine{
     background: url("../imgs/phone_line.png") no-repeat 0 50%;
     height: 28px;
@@ -285,7 +294,7 @@ nav li.active{
 
 footer{
     overflow: hidden;
-    height: 445px;
+    height: 435px;
 }
 footer .textBox{
     background: url("../imgs/textbox.png") no-repeat;

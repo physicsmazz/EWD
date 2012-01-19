@@ -187,6 +187,8 @@ require_once 'includes/config.inc.php';
             </div>
         </div>
         <div id="phoneLine"></div>
+        <div id="tagLine">Each site is developed according to that individual project's needs.</div>
+
 
     </div>
 

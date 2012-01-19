@@ -63,7 +63,7 @@ require_once 'includes/config.inc.php';
             </div>
         </div>
         <div id="phoneLine"></div>
-
+        <div id="tagLine">We look forward to hearing from you.</div>
     </div>
 
     <?php
