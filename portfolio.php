@@ -37,8 +37,8 @@ require_once 'includes/config.inc.php';
                 <div class="mygallery">
                     <ol>
                         <li>
-                            <a href="imgs/portfolio/1.jpg">
-                                <img src="imgs/portfolio/1_tn.jpg" />
+                            <a href="imgs/portfolio/8.jpg">
+                                <img src="imgs/portfolio/8_tn.jpg" />
                             </a>
                         </li>
                         <li>
@@ -72,8 +72,8 @@ require_once 'includes/config.inc.php';
                             </a>
                         </li>
                         <li>
-                            <a href="imgs/portfolio/8.jpg">
-                                <img src="imgs/portfolio/8_tn.jpg" />
+                            <a href="imgs/portfolio/1.jpg">
+                                <img src="imgs/portfolio/1_tn.jpg" />
                             </a>
                         </li>
                         <li>

@@ -152,7 +152,6 @@ nav li.active{
     height: 460px;
     position: relative;
     box-shadow: 3px 3px 15px #000;
-    overflow: auto;
 }
 .home #main #sliderImg img{
     margin: 0 auto;
@@ -294,12 +293,15 @@ footer .textBox{
     width: 235px;
     padding: 5px 20px;
     float: left;
-    margin: 10px 20px;
+    margin: 10px 22px;
     box-shadow: 2px 2px 8px #000;
     -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent),
       color-stop(0.5, transparent),
       to(rgba(255, 255, 255, 0.5)));
     text-align: center;
+}
+footer .textBox:first-child{
+    margin-left: 24px;
 }
 .textBox h3{
     color: #193B60;
