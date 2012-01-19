@@ -73,9 +73,12 @@ require_once 'includes/config.inc.php';
     require_once('includes/scripts.inc.php');
     ?>
     </div>
+<script type="text/javascript" src="js/libs/jquery.placeholder.js"></script>
     <script defer src="js/plugins.js"></script>
     <script defer src="js/script.js"></script>
-
+    <script type="text/javascript">
+        $('input[placeholder], textarea[placeholder]').placeholder();
+    </script>
     <script> // Change UA-XXXXX-X to be your site's ID
     //  window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     //  Modernizr.load({
