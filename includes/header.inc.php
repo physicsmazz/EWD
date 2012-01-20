@@ -8,4 +8,5 @@
             <li <?php if($page=='contact') echo 'class="active"'; ?>><a href="contact.php">CONTACT US</a></li>
         </ul>
     </nav>
+    <div id="logo"></div>
 </header>

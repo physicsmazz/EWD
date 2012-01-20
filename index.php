@@ -11,7 +11,7 @@ require_once 'includes/config.inc.php';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>e-Volution Web Development -> Moving Forward</title>
-    <meta name="description" content="">
+    <meta name="description" content="Creating a design to best showcase your sites purpose and needs. All projects are approached with the thought of functionality as well. Our team understands the importance of capturing an audience as well as keeping their interest within your site. Each site’s design is tailored to each individual client. Functionality together with a stream line design. Every project is assembled as a group with each lead member and client to assure quality results.">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">

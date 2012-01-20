@@ -11,8 +11,8 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #31788C; color: #fff; text-shadow: none; }
+::selection { background: #31788C; color: #fff; text-shadow: none; }
 
 a { color: #fff; }
 a:visited { color: #fff; }
@@ -128,6 +128,14 @@ nav li.active{
 }
 #container nav li.active a{
     color: #00FFFF;
+}
+header #logo{
+    height: 100px;
+    width: 316px;
+    background: url("../imgs/logo_lg.png") no-repeat;
+    position: absolute;
+    top: 40px;
+    right: 10px;
 }
 
 
